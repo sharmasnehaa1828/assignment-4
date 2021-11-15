@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+}
+.container{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    flex-direction: row;
+    
+}
+.para{
+    /* border: 1px solid blue; */
+    flex-basis: 50%;
+    text-align: center;
+    margin: auto;
+    color: white;
+    font-size: 1.1rem;
+    word-spacing: 0.4rem;
+    padding-top: 13vh;
+    
+}
+.image img{
+    flex-basis:50%;
+    margin: 1vh;
+    height: 50vh;
+    min-width:10vw;
+
+}
