@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: burlywood;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+}
+.container div{
+    flex-basis: 33%;
+    justify-content: center;
+}
+.heading{
+    text-align: center;
+}
+.days,.months,.seasons{
+    display: flex;
+    flex-basis: 25%;
+    justify-content: center;
+    margin: 1px auto;
+    flex-direction: row;
+    font-size: 1rem;
+    letter-spacing: 2px;
+    font-family: sans-serif;
+    padding: 20px;
+}
+/* display: flex;
+    flex-basis: 25%;
+    justify-content: center;
+    margin: 0px auto;
+    flex-direction: row;
+    font-size: 1.25rem;
+    letter-spacing: 2px;
+    font-family: sans-serif;
+    padding: 20px; */
+.days h2,.months h2,.seasons h2{
+    text-align: center;
+}
+.days ul,.seasons dl,.months ol{
+    -ms-flex-align: center;
+    margin-top: 6vh;
+    margin-left: -2vw;
+}
+.seasons dt{
+    margin-left: -2vw;
+}
